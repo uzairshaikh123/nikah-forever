@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+#video{
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+}
+*{
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  padding: 0px;
+}

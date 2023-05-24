@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.slider-cont div:nth-child(n){
+    height: auto;
+    width: 100%;
+    background: white;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    cursor: pointer;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    gap: 20px;
+}
+.slider-cont>div>div>div{
+box-shadow: none;
+border: 0ch;
+padding: 10px;
+}
+.slider-cont>div>div>div>div>div>div{
+    padding: 15px;
+}
+
+
+
+
+.slider-cont div img{
+    width: 100px;
+    display: block;
+    margin: auto;
+    
+}

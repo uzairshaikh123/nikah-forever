@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.down{
+display: flex;
+justify-content: center;
+align-items: end;
+height: 20vh;
+}
+.down>button{
+    background: transparent;
+    width: 100px;
+    
+}
+.down>button>img{
+    width:100%;
+    height:auto;
+    border-radius: 50%;
+
+}
+.down>button:hover{
+    transform: scale(1.2);
+    background: transparent;
+}

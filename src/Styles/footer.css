@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#footer{
+    background: #ff6032;
+    height: auto;
+    min-height: 330px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+    color: white;
+
+}
+#footer>div:nth-child(1){
+    width: 50%;
+}
+#footer p{
+    color: white;
+}
+#footer h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+
+}
+#footer>div>img:nth-child(1){
+width: 350px;
+}
+#footer>div:nth-child(2){
+    width: 10%;
+}
+#footer>div:nth-child(3){
+    width: 20%;
+}
